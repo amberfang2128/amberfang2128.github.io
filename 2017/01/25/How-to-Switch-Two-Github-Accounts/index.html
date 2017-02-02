@@ -15,7 +15,7 @@
 我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何切换多个GitHub账户">
-<meta property="og:url" content="http://yoursite.com/2017/01/25/How-to-Switch-Two-Github-Accounts/index.html">
+<meta property="og:url" content="http://amberfang2128.github.io/2017/01/25/How-to-Switch-Two-Github-Accounts/index.html">
 <meta property="og:site_name" content="Oblivion">
 <meta property="og:description" content="哈哈哈，此处先留坑，折腾到半夜两点总算解决啦~
 参考网址：
@@ -25,7 +25,7 @@
 
 大概画一下重点，基本上照着上面两篇里的方法就可以搞定啦。
 我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不">
-<meta property="og:updated_time" content="2017-02-01T11:34:33.895Z">
+<meta property="og:updated_time" content="2017-02-02T15:57:32.638Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何切换多个GitHub账户">
 <meta name="twitter:description" content="哈哈哈，此处先留坑，折腾到半夜两点总算解决啦~
@@ -38,11 +38,15 @@
 我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不">
   
   
+    <link rel="alternate" href="http://weibo.com/5591067241/profile?topnav=1&wvr=6" title="Oblivion">
+  
+  
     <link rel="icon" href="/favicon.ico">
   
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   
 
@@ -79,10 +83,20 @@
       </nav>
       <nav id="sub-nav">
         
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+        
+          <a id="nav-weibo-link" class="nav-icon" href=http://weibo.com/5591067241/profile?topnav=1&wvr=6" target="_blank">
+            <i class="fa fa-fw fa-weibo"></i>
+          </a>
+        
+        
+          <a id="nav-bilibili-link" class="nav-icon" href=http://space.bilibili.com/1697667/" target="_blank">
+            <i class="fa fa-fw fa-video-camera"></i>
+          </a>
+        
+        <!-- <a id="nav-search-btn" class="nav-icon" title="搜索"></a> -->
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://amberfang2128.github.io"></form>
       </div>
     </div>
   </div>
@@ -121,7 +135,7 @@
 <li><a href="http://blog.csdn.net/ha000/article/details/53422126" target="_blank" rel="external">多个git帐号的切换</a></li>
 </ul>
 <p><em>大概画一下重点，基本上照着上面两篇里的方法就可以搞定啦。</em></p>
-<p>我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。<br>至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不过ssh key用了RSA……我就不多说了。</p>
+<p>我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。<br>至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不过ssh key用了RSA……我就不多说了。<br><a id="more"></a></p>
 <h2 id="一·查看本机ssh-key"><a href="#一·查看本机ssh-key" class="headerlink" title="一·查看本机ssh key"></a>一·查看本机ssh key</h2><h2 id="二·为user2新建ssh-key"><a href="#二·为user2新建ssh-key" class="headerlink" title="二·为user2新建ssh key"></a>二·为user2新建ssh key</h2><h2 id="三·添加密钥"><a href="#三·添加密钥" class="headerlink" title="三·添加密钥"></a>三·添加密钥</h2><h2 id="四·配置或修改config文件"><a href="#四·配置或修改config文件" class="headerlink" title="四·配置或修改config文件"></a>四·配置或修改config文件</h2><h2 id="五·将密钥添加到github后台"><a href="#五·将密钥添加到github后台" class="headerlink" title="五·将密钥添加到github后台"></a>五·将密钥添加到github后台</h2><h2 id="六·测试与使用"><a href="#六·测试与使用" class="headerlink" title="六·测试与使用"></a>六·测试与使用</h2>
       
     </div>
@@ -157,7 +171,7 @@
       
         <section id="share">
           <!-- 多说分享 start -->
-          <div class="ds-share flat" data-thread-key="2017/01/25/How-to-Switch-Two-Github-Accounts/" data-title="如何切换多个GitHub账户" data-url="http://yoursite.com/2017/01/25/How-to-Switch-Two-Github-Accounts/">
+          <div class="ds-share flat" data-thread-key="2017/01/25/How-to-Switch-Two-Github-Accounts/" data-title="如何切换多个GitHub账户" data-url="http://amberfang2128.github.io/2017/01/25/How-to-Switch-Two-Github-Accounts/">
             <div class="ds-share-inline">
               <ul  class="ds-share-icons-16">
                 
@@ -177,7 +191,7 @@
       
         <section id="comments">
           <!-- 多说评论框 start -->
-          <div class="ds-thread" data-thread-key="2017/01/25/How-to-Switch-Two-Github-Accounts/" data-title="如何切换多个GitHub账户" data-url="http://yoursite.com/2017/01/25/How-to-Switch-Two-Github-Accounts/"></div>
+          <div class="ds-thread" data-thread-key="2017/01/25/How-to-Switch-Two-Github-Accounts/" data-title="如何切换多个GitHub账户" data-url="http://amberfang2128.github.io/2017/01/25/How-to-Switch-Two-Github-Accounts/"></div>
             <!-- 多说评论框 end -->
             <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
             <script type="text/javascript">
@@ -199,6 +213,34 @@
 </article></section>
         
       </div>
+      <script type="text/javascript">
+	window.onload = function(){
+	 	var oTop = document.getElementById("backtotop")
+	 	var scrollTop = document.documentElement.scrollHeight
+	 	var screenHeight = document.documentElement.clientHeight
+	 	var isTop = true
+	 	window.onscroll = function(){
+		 	if(scrollTop > screenHeight){
+		 		console.log('scrolling!!!!')
+		 		if(oTop.style.display = "none" && !isTop){
+		 			console.log('display the button!!!')
+		 			oTop.style.display = "block"
+		 		}
+		 		isTop = false
+		 	}
+		}
+
+		oTop.onclick = function(){
+			document.documentElement.scrollTop = document.body.scrollTop =0
+			console.log('top now!!!')
+			oTop.style.display = "none"
+			isTop = true
+		}
+	}
+</script>
+<div id="backtotop">
+   <i class="fa fa-arrow-up"></i>
+</div>
       <footer id="footer">
   
     <aside id="sidebar" class="outer">
@@ -217,9 +259,9 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017
+      &copy; 2017 <i class="fa fa-heart"></i>
   	  Amber Fang<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      <a href="http://hexo.io/" target="_blank">Hexo</a> 为爱助力
     </div>
   </div>
 </footer>

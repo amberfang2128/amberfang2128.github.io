@@ -115,7 +115,7 @@ button::-moz-focus-inner {
   font-style: normal;
   font-weight: normal;
   src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.woff2?v=#4.0.3") format("woff2"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
 }
 html,
 body,
@@ -398,9 +398,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 1.4em;
+  width: 1.4em;
+  height: 1.4em;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -1082,7 +1082,7 @@ a.article-title:hover {
 }
 #footer-info {
   line-height: 1.6em;
-  font-size: 0.85em;
+  font-size: 1em;
 }
 .article-entry pre,
 .article-entry .highlight {
@@ -1279,6 +1279,24 @@ pre .javascript .function {
   .mobile-nav-link:hover {
     color: #fff;
   }
+}
+#backtotop {
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  background: #808080;
+  color: #fff;
+  width: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+/* z-index: 2; */
+  cursor: pointer;
+  height: 25px;
+  line-height: 2;
+  text-shadow: 0 2px 2px #800080;
+  display: none;
 }
 .widget-wrap {
   margin-bottom: 50px !important;
