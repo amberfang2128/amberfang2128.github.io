@@ -361,13 +361,13 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 40px;
+  font-size: 60px;
   line-height: 40px;
   letter-spacing: 2px;
 }
 #subtitle {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 24px;
+  line-height: 32px;
   letter-spacing: 1px;
   opacity: 0.7;
 }
@@ -712,7 +712,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #f66;
+  color: #555;
 }
 .article-tag-list-item {
   float: left;
@@ -723,7 +723,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-tag-list-item a:hover {
-  color: #555;
+  color: #f66;
 }
 .article-tag-list-link:before {
   content: "#";
@@ -1306,6 +1306,22 @@ pre .javascript .function {
     height: 200px;
   }
 }
+@media screen and (max-width: 479px) {
+  #logo {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
+  #subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+  }
+  #subtitle:hover {
+    opacity: 1;
+  }
+}
 #backtotop {
   position: fixed;
   bottom: 50px;
@@ -1389,6 +1405,9 @@ pre .javascript .function {
   font-weight: bold;
 }
 .cate {
+  text-align: center;
+  padding: 5% 0;
+  font-size: 18px;
   color: #999;
 }
 .cate ul li,
