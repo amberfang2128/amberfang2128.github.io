@@ -12,6 +12,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Oblivion">
   
+    <link rel="alternate" href="/atom.xml" title="Oblivion" type="application/atom+xml">
+  
   
     <link rel="alternate" href="http://weibo.com/5591067241/profile?topnav=1&wvr=6" title="Oblivion">
   
@@ -49,15 +51,16 @@
         
           <a class="main-nav-link" href="/">主页</a>
         
-          <a class="main-nav-link" href="/categories">分类</a>
+          <a class="main-nav-link" href="/categories">目录</a>
         
           <a class="main-nav-link" href="/tags">标签</a>
         
           <a class="main-nav-link" href="/about">关于</a>
         
+          <!-- <a class="main-nav-link" href="/categories">目录</a>
+          <a class="main-nav-link" href="/tags">标签</a> -->
       </nav>
       <nav id="sub-nav">
-        
         
           <a id="nav-weibo-link" class="nav-icon" href=http://weibo.com/5591067241/profile?topnav=1&wvr=6" target="_blank">
             <i class="fa fa-fw fa-weibo"></i>
@@ -67,6 +70,9 @@
           <a id="nav-bilibili-link" class="nav-icon" href=http://space.bilibili.com/1697667/" target="_blank">
             <i class="fa fa-fw fa-video-camera"></i>
           </a>
+        
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
         <!-- <a id="nav-search-btn" class="nav-icon" title="搜索"></a> -->
       </nav>
@@ -78,6 +84,53 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-Enable-All-links-in-Navbar-and-add-RSS" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/03/Enable-All-links-in-Navbar-and-add-RSS/" class="article-date">
+  <time datetime="2017-02-03T14:04:39.000Z" itemprop="datePublished">2017-02-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/碎碎念/">碎碎念</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/03/Enable-All-links-in-Navbar-and-add-RSS/">修改了目录、标签页及RSS订阅功能</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>继续坑。</p>
+<p>今天还是蛮有收获的。而且昨天的那个回顶部的键也修好了~</p>
+<p>而且今天把网页的<a href="/">颜色</a>调整了一下哈哈哈哈哈哈。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/note/">note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/themes/">themes</a></li></ul>
+
+
+      
+  
+      
+
+      
+    </footer>
+  </div>
+</article>
   
     <article id="post-Add-Mylinks-and-Back-to-Top-Button" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -286,23 +339,28 @@
       <script type="text/javascript">
 	window.onload = function(){
 	 	var oTop = document.getElementById("backtotop")
-	 	var scrollTop = document.documentElement.scrollHeight
-	 	var screenHeight = document.documentElement.clientHeight
+	 	var scrollTop = 0
+	 	var clientHeight = 0
 	 	var isTop = true
+
 	 	window.onscroll = function(){
-		 	if(scrollTop > screenHeight){
-		 		console.log('scrolling!!!!')
-		 		if(oTop.style.display = "none" && !isTop){
-		 			console.log('display the button!!!')
-		 			oTop.style.display = "block"
-		 		}
-		 		isTop = false
-		 	}
+	 		//console.log(document.body.scrollTop)
+	 		if(!isTop){
+	 			//console.log('display the button!!!')
+	 			oTop.style.display = "block"
+	 		}
+	 		//isTop = false
+	 		if(document.body.scrollTop > 0){
+	 			isTop = false
+	 		}else{
+	 			isTop = true
+	 			oTop.style.display = "none"
+	 		}
 		}
 
 		oTop.onclick = function(){
 			document.documentElement.scrollTop = document.body.scrollTop =0
-			console.log('top now!!!')
+			//console.log('top now!!!')
 			oTop.style.display = "none"
 			isTop = true
 		}
@@ -311,13 +369,14 @@
 <div id="backtotop">
    <i class="fa fa-arrow-up"></i>
 </div>
+
       <footer id="footer">
   
     <aside id="sidebar" class="outer">
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
+    <a href="/archives"><h3 class="widget-title">归档</h3></a>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a></li></ul>
     </div>
@@ -340,7 +399,7 @@
   
     <a href="/" class="mobile-nav-link">主页</a>
   
-    <a href="/categories" class="mobile-nav-link">分类</a>
+    <a href="/categories" class="mobile-nav-link">目录</a>
   
     <a href="/tags" class="mobile-nav-link">标签</a>
   

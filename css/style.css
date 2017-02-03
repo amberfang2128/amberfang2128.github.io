@@ -299,7 +299,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 500px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -369,6 +369,10 @@ body {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
+  opacity: 0.7;
+}
+#subtitle:hover {
+  opacity: 1;
 }
 #subtitle-wrap {
   margin-top: 16px;
@@ -511,6 +515,10 @@ body {
 }
 .article-date {
   float: left;
+  opacity: 0.6;
+}
+.article-date:hover {
+  opacity: 1;
 }
 .article-category {
   float: left;
@@ -524,6 +532,9 @@ body {
 }
 .article-category-link {
   margin: 0 12px 1em;
+}
+.article-category-link:hover {
+  color: #9cf;
 }
 .article-header {
   padding: 20px 20px 0;
@@ -540,7 +551,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #258fb8;
+  color: #b266ff;
 }
 .article-entry {
   color: #555;
@@ -577,7 +588,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #258fb8;
+  color: #c9f;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -676,10 +687,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #258fb8;
+  background: #400080;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #1e7293;
+  text-shadow: 0 1px #a347ff;
 }
 .article-footer {
   font-size: 0.85em;
@@ -701,11 +712,18 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #555;
+  color: #f66;
 }
 .article-tag-list-item {
   float: left;
   margin-right: 10px;
+}
+.article-tag-list-item a {
+  color: #999;
+  text-decoration: none;
+}
+.article-tag-list-item a:hover {
+  color: #555;
 }
 .article-tag-list-link:before {
   content: "#";
@@ -944,7 +962,7 @@ a.article-title:hover {
   margin: 50px 0;
 }
 #comments a {
-  color: #258fb8;
+  color: #c9f;
 }
 .archives-wrap {
   margin: 50px 0;
@@ -1000,7 +1018,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #c9f;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1073,8 +1091,11 @@ a.article-title:hover {
   border-top: 1px solid #ddd;
   color: #999;
 }
+#footer .widget-title:hover {
+  color: #c9f;
+}
 #footer a {
-  color: #258fb8;
+  color: #c9f;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1195,7 +1216,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #c9f;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1280,6 +1301,11 @@ pre .javascript .function {
     color: #fff;
   }
 }
+@media screen and (max-width: 479px) {
+  #header {
+    height: 200px;
+  }
+}
 #backtotop {
   position: fixed;
   bottom: 50px;
@@ -1297,6 +1323,88 @@ pre .javascript .function {
   line-height: 2;
   text-shadow: 0 2px 2px #800080;
   display: none;
+  opacity: 0.6;
+}
+#backtotop:hover {
+  opacity: 1;
+}
+.tag-wrap {
+  min-height: 100px;
+  margin-bottom: 50px !important;
+}
+@media screen and (min-width: 768px) {
+  .tag-wrap {
+    display: inline;
+    float: left;
+    width: 97.77777777777777%;
+    margin: 0 1.111111111111111%;
+  }
+}
+.tag-title {
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.tag {
+  padding: 5% 0;
+  text-align: center;
+}
+.tag ul li,
+.tag ol li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding-right: 0.75em;
+}
+.tagcloud a {
+  margin-right: 5px;
+  display: inline-block;
+  color: #b266ff;
+}
+.tagcloud a:hover {
+  color: #400080;
+}
+.cate-wrap {
+  margin-bottom: 50px !important;
+}
+@media screen and (min-width: 768px) {
+  .cate-wrap {
+    display: inline;
+    float: left;
+    width: 97.77777777777777%;
+    margin: 0 1.111111111111111%;
+  }
+}
+.cate-title {
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.cate {
+  color: #999;
+}
+.cate ul li,
+.cate ol li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding-right: 0.75em;
+}
+.cate a {
+  margin-right: 5px;
+  display: inline-block;
+  color: #b266ff;
+}
+.cate a:hover {
+  color: #400080;
 }
 .widget-wrap {
   margin-bottom: 50px !important;

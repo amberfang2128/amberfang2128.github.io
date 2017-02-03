@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Oblivion</title>
+  <subtitle>景色与凡尘</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://amberfang2128.github.io/"/>
+  <updated>2017-02-03T14:23:35.151Z</updated>
+  <id>http://amberfang2128.github.io/</id>
+  
+  <author>
+    <name>Amber Fang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改了目录、标签页及RSS订阅功能</title>
+    <link href="http://amberfang2128.github.io/2017/02/03/Enable-All-links-in-Navbar-and-add-RSS/"/>
+    <id>http://amberfang2128.github.io/2017/02/03/Enable-All-links-in-Navbar-and-add-RSS/</id>
+    <published>2017-02-03T14:04:39.000Z</published>
+    <updated>2017-02-03T14:23:35.151Z</updated>
+    
+    <content type="html"><![CDATA[<p>继续坑。</p>
+<p>今天还是蛮有收获的。而且昨天的那个回顶部的键也修好了~</p>
+<p>而且今天把网页的<a href="/">颜色</a>调整了一下哈哈哈哈哈哈。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;继续坑。&lt;/p&gt;
+&lt;p&gt;今天还是蛮有收获的。而且昨天的那个回顶部的键也修好了~&lt;/p&gt;
+&lt;p&gt;而且今天把网页的&lt;a href=&quot;/&quot;&gt;颜色&lt;/a&gt;调整了一下哈哈哈哈哈哈。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="themes" scheme="http://amberfang2128.github.io/tags/themes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>增加微博和B站链接</title>
+    <link href="http://amberfang2128.github.io/2017/02/02/Add-Mylinks-and-Back-to-Top-Button/"/>
+    <id>http://amberfang2128.github.io/2017/02/02/Add-Mylinks-and-Back-to-Top-Button/</id>
+    <published>2017-02-02T15:53:12.000Z</published>
+    <updated>2017-02-02T16:04:30.604Z</updated>
+    
+    <content type="html"><![CDATA[<p>加了链接，在顶端导航栏里，还加了一个<strong>回到顶部</strong>的功能……滚动一下页面，就在右下角……<em>好像还是蛮可爱的</em>。<br>牙牙，又要留坑了，好久不用javaScript，复健好辛苦啊QAQ<br>明天想试一下放图片和视频进来orz睡觉去啦</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;加了链接，在顶端导航栏里，还加了一个&lt;strong&gt;回到顶部&lt;/strong&gt;的功能……滚动一下页面，就在右下角……&lt;em&gt;好像还是蛮可爱的&lt;/em&gt;。&lt;br&gt;牙牙，又要留坑了，好久不用javaScript，复健好辛苦啊QAQ&lt;br&gt;明天想试一下放图片和视频进来orz睡觉去
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天这里的小装修</title>
+    <link href="http://amberfang2128.github.io/2017/02/01/Contribution-to-Theme/"/>
+    <id>http://amberfang2128.github.io/2017/02/01/Contribution-to-Theme/</id>
+    <published>2017-02-01T12:43:45.000Z</published>
+    <updated>2017-02-02T15:54:15.671Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个主题是官方的默认主题Landscape，今天进行了初步改造，添加了留言和分享功能，点开文章就能看到啦。</p>
+<p>上方的几个链接也改了，不过还没有弄好，所以只是能点开，但是内容还是不太对哦。</p>
+<p>明天做一个上方链接可以直接开微博和b站主页的，诶嘿。</p>
+<p>顺便把右侧的小方块放到下面去了，只留了一个归档，说实话太多链接也没啥用，明明就这么几页而已。</p>
+<p>好了，说好今天剪视频的。</p>
+<p>哦！重要的事情，我给主题重新起了名字叫<strong>Pompon</strong>（待我完全改造好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这个主题是官方的默认主题Landscape，今天进行了初步改造，添加了留言和分享功能，点开文章就能看到啦。&lt;/p&gt;
+&lt;p&gt;上方的几个链接也改了，不过还没有弄好，所以只是能点开，但是内容还是不太对哦。&lt;/p&gt;
+&lt;p&gt;明天做一个上方链接可以直接开微博和b站主页的，诶嘿。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何切换多个GitHub账户</title>
+    <link href="http://amberfang2128.github.io/2017/01/25/How-to-Switch-Two-Github-Accounts/"/>
+    <id>http://amberfang2128.github.io/2017/01/25/How-to-Switch-Two-Github-Accounts/</id>
+    <published>2017-01-24T18:02:03.000Z</published>
+    <updated>2017-02-02T15:57:32.638Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈哈哈，此处先留坑，折腾到半夜两点总算解决啦~</p>
+<p>参考网址：</p>
+<ul>
+<li><a href="http://www.cnblogs.com/BeginMan/p/3548139.html" target="_blank" rel="external">多github帐号的SSH key切换</a></li>
+<li><a href="http://blog.csdn.net/ha000/article/details/53422126" target="_blank" rel="external">多个git帐号的切换</a></li>
+</ul>
+<p><em>大概画一下重点，基本上照着上面两篇里的方法就可以搞定啦。</em></p>
+<p>我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。<br>至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不过ssh key用了RSA……我就不多说了。<br><a id="more"></a></p>
+<h2 id="一·查看本机ssh-key"><a href="#一·查看本机ssh-key" class="headerlink" title="一·查看本机ssh key"></a>一·查看本机ssh key</h2><h2 id="二·为user2新建ssh-key"><a href="#二·为user2新建ssh-key" class="headerlink" title="二·为user2新建ssh key"></a>二·为user2新建ssh key</h2><h2 id="三·添加密钥"><a href="#三·添加密钥" class="headerlink" title="三·添加密钥"></a>三·添加密钥</h2><h2 id="四·配置或修改config文件"><a href="#四·配置或修改config文件" class="headerlink" title="四·配置或修改config文件"></a>四·配置或修改config文件</h2><h2 id="五·将密钥添加到github后台"><a href="#五·将密钥添加到github后台" class="headerlink" title="五·将密钥添加到github后台"></a>五·将密钥添加到github后台</h2><h2 id="六·测试与使用"><a href="#六·测试与使用" class="headerlink" title="六·测试与使用"></a>六·测试与使用</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哈哈哈，此处先留坑，折腾到半夜两点总算解决啦~&lt;/p&gt;
+&lt;p&gt;参考网址：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/BeginMan/p/3548139.html&quot;&gt;多github帐号的SSH key切换&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/ha000/article/details/53422126&quot;&gt;多个git帐号的切换&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;大概画一下重点，基本上照着上面两篇里的方法就可以搞定啦。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我的主要问题是Git Bash自动登录了一个github账户，而电脑本身并没有ssh key，所以折腾了一番。&lt;br&gt;至于ssh key这种东西是什么，感兴趣的话可以了解应用密码学的相关内容——其实大家已经不陌生了对吧，只不过ssh key用了RSA……我就不多说了。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="github" scheme="http://amberfang2128.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在最最最最前面</title>
+    <link href="http://amberfang2128.github.io/2017/01/24/First-Note-Here/"/>
+    <id>http://amberfang2128.github.io/2017/01/24/First-Note-Here/</id>
+    <published>2017-01-24T14:21:28.000Z</published>
+    <updated>2017-02-02T15:57:42.333Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个网页算是个人<strong>BLOG</strong>，大概是写写随笔，做一些技术分享。<br>前两天也说了打算做一个论坛式的小平台，到底做成什么样我最近都在查资料，总之前后的过程——遇到的问题和解决方法都尽量写在这里吧。<br>目前要重新再补一遍<a href="https://www.python.org/" target="_blank" rel="external">Python3</a>和<a href="https://www.mysql.com/" target="_blank" rel="external">MySQL</a>，这里的话会尽快对主题做一些修改，嗯要有自己的风格。<br><a id="more"></a></p>
+<p>如果想自己搭一个博客的话，可参考的网址：<br>技术支持：<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>官网有很多现成的主题以及插件可用。<br>技术文档：<a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a>，详细的操作方法都可以找到。</p>
+<p>本页面服务端：<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>，GitHub大约提供300M的免费空间，所以作为个人主页来说也够用了。</p>
+<p>安装Hexo前需要先安装<a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a>，然后通过<a href="https://www.npmjs.com/" target="_blank" rel="external">npm</a>进行安装。<br>node.js在安装时也会直接配置npm包，所一不需要另外下载啦~</p>
+<p><strong>这里提到的诸多软件以及各语言需要的安装和电脑环境配置，在其官网都有详细说明，如果实在不想一点点看Docs也全部都可以搜到，不赘述了。</strong></p>
+<h2 id="快捷键-Command-Line"><a href="#快捷键-Command-Line" class="headerlink" title="快捷键 Command Line"></a>快捷键 Command Line</h2><h3 id="新建-Create-a-new-post"><a href="#新建-Create-a-new-post" class="headerlink" title="新建 Create a new post"></a>新建 Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="运行-Run-server"><a href="#运行-Run-server" class="headerlink" title="运行 Run server"></a>运行 Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="生成-Generate-static-files"><a href="#生成-Generate-static-files" class="headerlink" title="生成 Generate static files"></a>生成 Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="配置-Deploy-to-remote-sites"><a href="#配置-Deploy-to-remote-sites" class="headerlink" title="配置 Deploy to remote sites"></a>配置 Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这个网页算是个人&lt;strong&gt;BLOG&lt;/strong&gt;，大概是写写随笔，做一些技术分享。&lt;br&gt;前两天也说了打算做一个论坛式的小平台，到底做成什么样我最近都在查资料，总之前后的过程——遇到的问题和解决方法都尽量写在这里吧。&lt;br&gt;目前要重新再补一遍&lt;a href=&quot;https://www.python.org/&quot;&gt;Python3&lt;/a&gt;和&lt;a href=&quot;https://www.mysql.com/&quot;&gt;MySQL&lt;/a&gt;，这里的话会尽快对主题做一些修改，嗯要有自己的风格。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+  </entry>
+  
+</feed>
