@@ -140,6 +140,11 @@ body {
 .outer:after {
   clear: both;
 }
+@media screen and (max-width: 479px) {
+  .outer {
+    min-height: 52%;
+  }
+}
 .inner {
   display: inline;
   float: left;
@@ -1511,7 +1516,7 @@ pre .javascript .function {
   font-weight: bold;
 }
 .tag {
-  padding: 5% 0;
+  padding: 8.5% 0;
   text-align: center;
 }
 .tag ul li,
@@ -1551,8 +1556,8 @@ pre .javascript .function {
 }
 .cate {
   text-align: center;
-  padding: 5% 0;
-  font-size: 18px;
+  padding: 8% 0;
+  font-size: 22px;
   color: #999;
 }
 .cate ul li,

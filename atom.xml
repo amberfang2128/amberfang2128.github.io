@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://amberfang2128.github.io/"/>
-  <updated>2017-02-06T12:43:43.324Z</updated>
+  <updated>2017-02-06T13:11:53.875Z</updated>
   <id>http://amberfang2128.github.io/</id>
   
   <author>
@@ -16,16 +16,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>改了版头，可以放b站视频了</title>
+    <title>改了版头，变成会动的啦</title>
     <link href="http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/"/>
     <id>http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/</id>
     <published>2017-02-06T10:56:57.000Z</published>
-    <updated>2017-02-06T12:43:43.324Z</updated>
+    <updated>2017-02-06T13:11:53.875Z</updated>
     
     <content type="html"><![CDATA[<p>今天不留坑了，简单记一下。<br>改了版头，做成了自动播放的图片，可以<strong>点小圆点</strong>选图，不管他的话会<em>疯狂循环播放</em>。<br>(手机的话为了美观就把小圆点隐藏了，<em>不过把手机横过来可能有奇迹嘻嘻</em>，iPad一类屏幕大小的端口和电脑应该都麻油问题。不过因为我的屏幕是1080的所以可能调的比例还是有点问题。)<br>感觉可爱多了（图都是乐乐做的微博版头XD。</p>
-<p>然后改了hexo的代码，可以放b站视频了。试一下效果诶嘿~<br>（视频目前只支持Windows下网页观看，还要flash插件是最新的才行，Safari就打不开，嘤嘤嘤，不过我的电脑是可以看了。）</p>
-<div class="video-container"><embed width="750" height="624" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="http://share.acg.tv/flash.swf?aid=4024761&amp;page=1" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false"></div>
-<p><strong>当王千吹遇见易书法家。</strong></p>
+<p>诶，然后研究了一下hexo的代码知道怎么放视频了，但是b站的视频直接放会被http协议给和谐掉，玛德，并不是危险文件好吗？！<br>另外b站原本的API文件网址全都是挂的（？？？搞什么。</p>
+<div class="video-container"><embed width="750" height="624" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="http://static.hdslb.com/miniloader.swf?aid=4024761&amp;page=1" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false"></div>
 ]]></content>
     
     <summary type="html">
