@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://amberfang2128.github.io/"/>
-  <updated>2017-02-06T11:01:01.170Z</updated>
+  <updated>2017-02-06T11:18:09.065Z</updated>
   <id>http://amberfang2128.github.io/</id>
   
   <author>
@@ -16,18 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试b站视频</title>
+    <title>改了版头，可以放b站视频了</title>
     <link href="http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/"/>
     <id>http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/</id>
     <published>2017-02-06T10:56:57.000Z</published>
-    <updated>2017-02-06T11:01:01.170Z</updated>
+    <updated>2017-02-06T11:18:09.065Z</updated>
     
     <content type="html"><![CDATA[<p>今天不留坑了，简单记一下。<br>改了版头，做成了自动播放的图片，可以点小圆点选图，感觉可爱多了（图都是乐乐做的微博版头。</p>
 <p>然后改了hexo的代码，可以放b站视频了。试一下效果诶嘿~</p>
-<div class="video-container"><embed width="750" height="624" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="http://share.acg.tv/flash.swf?aid=4024761&amp;page=1" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false">
-<p>当王千吹遇见易书法家。<br>论一个大写千吹的自我修养，你合格了嘛~</p>
+<div class="video-container"><embed width="750" height="624" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="http://share.acg.tv/flash.swf?aid=4024761&amp;page=1" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false"></div>
+<p><strong>当王千吹遇见易书法家。</strong><br>论一个大写千吹的自我修养，你合格了嘛~</p>
 <p>虽然都是官方视频也不要上升噢，么么哒(づ￣ 3￣)づ</p>
-</div>]]></content>
+]]></content>
     
     <summary type="html">
     
