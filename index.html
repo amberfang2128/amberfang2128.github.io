@@ -14,16 +14,16 @@
   
     <link rel="alternate" href="/atom.xml" title="Oblivion" type="application/atom+xml">
   
-  
+  <!-- 
     <link rel="alternate" href="http://weibo.com/5591067241/profile?topnav=1&wvr=6" title="Oblivion">
-  
+   -->
   
     <link rel="icon" href="/favicon.ico">
   
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   
 
@@ -33,7 +33,31 @@
   <div id="container">
     <div id="wrap">
       <header id="header">
-  <div id="banner"></div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/css/images/banner5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/css/images/banner1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/css/images/banner3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/css/images/banner9.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/css/images/banner4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/css/images/banner11.jpg" style="width:100%">
+    </div>
+  </div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
@@ -57,8 +81,6 @@
         
           <a class="main-nav-link" href="/about">关于</a>
         
-          <!-- <a class="main-nav-link" href="/categories">目录</a>
-          <a class="main-nav-link" href="/tags">标签</a> -->
       </nav>
       <nav id="sub-nav">
         
@@ -79,11 +101,106 @@
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://amberfang2128.github.io"></form>
       </div>
+      <div class="dots" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
     </div>
   </div>
 </header>
+
+<script type="text/javascript">
+  var slideIndex = 0;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  showSlides();
+  //showSlides(n);
+
+  function currentSlide(n) {
+    var i;
+    slideIndex = n;
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
+  function showSlides() {
+    var i;
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {
+      slideIndex = 1
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active"
+    setTimeout(showSlides, 2500);
+  }
+</script>
+
       <div class="outer">
         <section id="main">
+  
+    <article id="post-Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/" class="article-date">
+  <time datetime="2017-02-06T10:56:57.000Z" itemprop="datePublished">2017-02-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/碎碎念/">碎碎念</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/">测试b站视频</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今天不留坑了，简单记一下。<br>改了版头，做成了自动播放的图片，可以点小圆点选图，感觉可爱多了（图都是乐乐做的微博版头。</p>
+<p>然后改了hexo的代码，可以放b站视频了。试一下效果诶嘿~</p>
+<div class="video-container"><embed width="750" height="624" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="http://share.acg.tv/flash.swf?aid=4024761&amp;page=1" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false">
+<p>当王千吹遇见易书法家。<br>论一个大写千吹的自我修养，你合格了嘛~</p>
+<p>虽然都是官方视频也不要上升噢，么么哒(づ￣ 3￣)づ</p>
+</div>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/note/">note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/theme/">theme</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/video/">video</a></li></ul>
+
+
+      
+  
+      
+
+      
+    </footer>
+  </div>
+</article>
   
     <article id="post-Enable-All-links-in-Navbar-and-add-RSS" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">

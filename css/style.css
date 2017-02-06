@@ -302,6 +302,7 @@ body {
   height: 500px;
   position: relative;
   border-bottom: 1px solid #ddd;
+  overflow: hidden;
 }
 #header:before,
 #header:after {
@@ -309,7 +310,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  height: 40px;
+  height: 20px;
 }
 #header:before {
   top: 0;
@@ -332,18 +333,6 @@ body {
 #header-inner {
   position: relative;
   overflow: hidden;
-}
-#banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("images/banner1.jpg") center #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  z-index: -1;
 }
 #header-title {
   text-align: center;
@@ -384,7 +373,7 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #999;
   opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
@@ -498,6 +487,98 @@ body {
 .search-form-submit:hover,
 .search-form-submit:focus {
   color: #777;
+}
+.slideshow-container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.mySlides {
+  display: none;
+}
+.fade {
+  -webkit-animation-name: fad;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -moz-animation-name: fade;
+  -ms-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dots {
+  margin-top: 450px;
+  z-index: 2;
+}
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #555;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 479px) {
+  .dot {
+    display: none;
+  }
+}
+.active,
+.dot:hover {
+  background-color: #999;
+}
+@-moz-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .article {
   margin: 50px 0;
@@ -662,7 +743,7 @@ a.article-title:hover {
 }
 .article-entry .video-container {
   position: relative;
-  padding-top: 56.25%;
+  padding-top: 75%;
   height: 0;
   overflow: hidden;
 }
