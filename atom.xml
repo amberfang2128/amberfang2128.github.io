@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://amberfang2128.github.io/"/>
-  <updated>2017-02-06T13:26:41.743Z</updated>
+  <updated>2017-02-07T11:10:20.281Z</updated>
   <id>http://amberfang2128.github.io/</id>
   
   <author>
@@ -16,6 +16,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>b站视频嵌入的问题解决啦</title>
+    <link href="http://amberfang2128.github.io/2017/02/07/Solve-Bilibili-Plugin-Problem/"/>
+    <id>http://amberfang2128.github.io/2017/02/07/Solve-Bilibili-Plugin-Problem/</id>
+    <published>2017-02-07T11:05:26.000Z</published>
+    <updated>2017-02-07T11:10:20.281Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="纸上得来终觉浅，绝知此事要躬行。"><a href="#纸上得来终觉浅，绝知此事要躬行。" class="headerlink" title="纸上得来终觉浅，绝知此事要躬行。"></a>纸上得来终觉浅，绝知此事要躬行。</h2><p>今天又查了查，不知道怎么顿悟到是<strong>HTTPS和HTTP协议</strong>并不完全互相兼容导致昨天出了错。</p>
+<div class="video-container"><iframe src="https://static.hdslb.com/miniloader.swf?aid=5545360" allowfullscreen="true"></iframe></div>
+<p><strong>惊鸿一瞥</strong></p>
+<p>再放个视频试一下。<br>其实只有HTTPS协议的网址不能嵌入HTTP的而已，别的都没有问题。<br>昨天大概是因为我没有规定协议，所以自动生成的文件是根据本地服务器加的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;纸上得来终觉浅，绝知此事要躬行。&quot;&gt;&lt;a href=&quot;#纸上得来终觉浅，绝知此事要躬行。&quot; class=&quot;headerlink&quot; title=&quot;纸上得来终觉浅，绝知此事要躬行。&quot;&gt;&lt;/a&gt;纸上得来终觉浅，绝知此事要躬行。&lt;/h2&gt;&lt;p&gt;今天又查了查，不知道怎么顿悟
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
+    
+      <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
+    
+      <category term="video" scheme="http://amberfang2128.github.io/tags/video/"/>
+    
+  </entry>
+  
+  <entry>
     <title>改了版头，变成会动的啦</title>
     <link href="http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/"/>
     <id>http://amberfang2128.github.io/2017/02/06/Modify-header-background-to-Carousel-and-Enable-BILIBILI-Plugin/</id>
@@ -23,7 +55,7 @@
     <updated>2017-02-06T13:26:41.743Z</updated>
     
     <content type="html"><![CDATA[<p>今天不留坑了，简单记一下。<br>改了版头，做成了自动播放的图片，可以<strong>点小圆点</strong>选图，不管他的话会<em>疯狂循环播放</em>。<br>(手机的话为了美观就把小圆点隐藏了，<em>不过把手机横过来可能有奇迹嘻嘻</em>，iPad一类屏幕大小的端口和电脑应该都麻油问题。不过因为我的屏幕是1080的所以可能调的比例还是有点问题。)<br>感觉可爱多了（图都是乐乐做的微博版头XD。</p>
-<p>诶，然后研究了一下hexo的代码知道怎么放视频了，但是b站的视频直接放会被https协议给和谐掉，玛德，并不是危险文件好吗？！<br>另外b站原本的API文件网址全都是挂的（？？？搞什么。<br>↓↓↓此处插了视频，但是系统提示是这样的——<br><code>SEC7111: HTTPS 安全受到 http://static.hdslb.com/miniloader.swf?aid=4024761&amp;page=1 的威胁</code><br><div class="video-container"><iframe src="http://static.hdslb.com/miniloader.swf?aid=4024761" type="application/x-shockwave-flash" quality="high" wmode="transparent" menu="false" allowfullscreen="true" flashvars="autostart=false"></iframe></div><br><a href="http://static.hdslb.com/miniloader.swf?aid=4024761" target="_blank" rel="external">就是这个视频</a> 总之理论上来说这个外部共享是没有问题的，我好气。</p>
+<p>诶，然后研究了一下hexo的代码知道怎么放视频了，但是b站的视频直接放会被https协议给和谐掉，玛德，并不是危险文件好吗？！<br>另外b站原本的API文件网址全都是挂的（？？？搞什么。<br>↓↓↓此处插了视频，但是系统提示是这样的——<br><code>SEC7111: HTTPS 安全受到 http://static.hdslb.com/miniloader.swf?aid=4024761&amp;page=1 的威胁</code><br><div class="video-container"><iframe src="https://static.hdslb.com/miniloader.swf?aid=4024761" allowfullscreen="true"></iframe></div><br><a href="http://static.hdslb.com/miniloader.swf?aid=4024761" target="_blank" rel="external">就是这个视频</a> 总之理论上来说这个外部共享是没有问题的，我好气。</p>
 ]]></content>
     
     <summary type="html">
@@ -37,9 +69,9 @@
     
       <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
     
-      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
-    
       <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
     
       <category term="video" scheme="http://amberfang2128.github.io/tags/video/"/>
     
@@ -69,11 +101,11 @@
       <category term="碎碎念" scheme="http://amberfang2128.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
+      <category term="themes" scheme="http://amberfang2128.github.io/tags/themes/"/>
+    
       <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
     
       <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
-    
-      <category term="themes" scheme="http://amberfang2128.github.io/tags/themes/"/>
     
   </entry>
   
@@ -98,9 +130,9 @@
     
       <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
     
-      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
-    
       <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
     
   </entry>
   
@@ -132,9 +164,9 @@
     
       <category term="hexo" scheme="http://amberfang2128.github.io/tags/hexo/"/>
     
-      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
-    
       <category term="note" scheme="http://amberfang2128.github.io/tags/note/"/>
+    
+      <category term="theme" scheme="http://amberfang2128.github.io/tags/theme/"/>
     
   </entry>
   
